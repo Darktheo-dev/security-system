@@ -1,3 +1,8 @@
+
+
+
+
+
 # 🔒 Firebase credentials
 backend/firebase-admin.json
 
@@ -17,3 +22,7 @@ backend/node_modules/
 
 # 🍏 macOS system files
 .DS_Store
+
+
+arduino/secrets.h
+**/secrets.h
