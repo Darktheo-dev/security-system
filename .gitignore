@@ -1,0 +1,19 @@
+# 🔒 Firebase credentials
+backend/firebase-admin.json
+
+# 🧠 Python cache
+__pycache__/
+*.pyc
+
+# 📦 Node.js modules (huge and not needed)
+frontend/node_modules/
+backend/node_modules/
+
+# 🔐 Environment variables (if you add a .env later)
+.env
+
+# 🧠 VS Code settings (not needed by others)
+.vscode/
+
+# 🍏 macOS system files
+.DS_Store
