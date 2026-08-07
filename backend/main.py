@@ -9,6 +9,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 # --- Initialize FastAPI ---
+
+
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
@@ -53,6 +55,9 @@ class CodeEntry(BaseModel):
 
 # --- Secret disarm code ---
 SECRET_CODE = "1738"
+
+Owner = "Kevin Varghese"
+print(Owner)
 
 # --- Code verification route ---
 @app.post("/code")
